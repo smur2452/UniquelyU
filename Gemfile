@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'ruby', '2.3.0'
 gem 'pg'
 gem 'rails', '4.1.6'
 gem 'merit'
