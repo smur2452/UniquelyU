@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: d3rctaihr8u675
+  database: app_development
   pool: 5
   username: ubuntu
   password: eKcGZr59zAa2BEWU
@@ -9,10 +9,10 @@ development:
 test:
   adapter: postgresql
   encoding: utf8
-  database: d3rctaihr8u675
+  database: de9b5q9jac5b2l
   pool: 5
-  username: pvxynokimpzama
-  password: 2q8Loqh7L-82q59EzCn74WbEDH
+  username: tgvabtrxvekaes
+  password: nG34TPYTH4g73DE9XG76-patzG
 
 production:
   adapter: postgresql
