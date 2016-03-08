@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
-gem "omnicontacts"
-gem 'mailcatcher'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'pg'
 gem 'rails', '4.1.6'
 gem 'merit'
 # Use SCSS for stylesheets
@@ -27,7 +26,6 @@ end
 
 
 group :production do
-  gem 'pg'
   gem 'unicorn'
   gem 'cloudinary'
   gem 'rails_12factor'
