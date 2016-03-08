@@ -9,15 +9,15 @@ development:
 test:
   adapter: postgresql
   encoding: utf8
-  database: de9b5q9jac5b2l
+  database: app_test
   pool: 5
-  username: tgvabtrxvekaes
-  password: nG34TPYTH4g73DE9XG76-patzG
+  username: ubuntu
+  password: eKcGZr59zAa2BEWU
 
 production:
   adapter: postgresql
   encoding: utf8
-  database: de9b5q9jac5b2l
+  database: app_production
   pool: 5
-  username: tgvabtrxvekaes
-  password: nG34TPYTH4g73DE9XG76-patzG
+  username: ubuntu
+  password: eKcGZr59zAa2BEWU
