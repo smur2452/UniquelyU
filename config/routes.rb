@@ -11,9 +11,10 @@ Rails.application.routes.draw do
     end
   end
   resources :events, except: [:edit, :update]
-
+  resources :explore, path: '/explore'
   authenticated :user do
     root to: 'home#index', as: 'home'
+    
   end
   unauthenticated :user do
     root 'home#front'

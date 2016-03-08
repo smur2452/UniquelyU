@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'eventfulapi', '~> 2.2', '>= 2.2.1'
 gem 'pg'
 gem 'rails', '4.1.6'
 gem 'merit'
