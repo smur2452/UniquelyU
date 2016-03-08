@@ -1,23 +1,5 @@
 development:
   adapter: postgresql
-  encoding: utf8
-  database: app_development
-  pool: 5
-  username: ubuntu
-  password: eKcGZr59zAa2BEWU
-
-test:
-  adapter: postgresql
-  encoding: utf8
-  database: app_test
-  pool: 5
-  username: ubuntu
-  password: eKcGZr59zAa2BEWU
-
-production:
-  adapter: postgresql
-  encoding: utf8
-  database: app_production
-  pool: 5
-  username: ubuntu
-  password: eKcGZr59zAa2BEWU
+  host: localhost
+  username: user
+  database: app-dev
