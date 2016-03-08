@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'ruby', '2.3.0'
 gem 'pg'
 gem 'rails', '4.1.6'
 gem 'merit'
+gem 'thin'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -26,7 +28,6 @@ end
 
 
 group :production do
-  gem 'unicorn'
   gem 'cloudinary'
   gem 'rails_12factor'
 end
