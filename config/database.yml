@@ -1,8 +1,11 @@
 development:
   adapter: postgresql
-  host: localhost
-  username: user
-  database: app-dev
+  encoding: utf8
+  database: app_development
+  pool: 5
+  username: ubuntu
+  password: eKcGZr59zAa2BEWU
+
 test:
   adapter: postgresql
   encoding: utf8
