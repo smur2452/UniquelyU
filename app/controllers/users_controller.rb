@@ -37,7 +37,10 @@ class UsersController < ApplicationController
   private
   def user_params
     params.require(:user).permit(:name, :about, :avatar, :cover,
-                                 :sex, :dob, :location, :phone_number)
+                                 :sex, :dob, :location, :phone_number, 
+                                 :personality_type, :hobbies, 
+                                 :favorite_memory, :favorite_movie_genre, :favorite_music, 
+                                 :strengths, :weaknesses, :three_wishes, :role_model, :favorite_quote)
   end
 
   def check_ownership

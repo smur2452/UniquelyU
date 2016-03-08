@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
-
-
+gem "omnicontacts"
+gem 'mailcatcher'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
-
+gem 'merit'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets

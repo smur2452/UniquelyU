@@ -45,6 +45,50 @@
         <div class="actions">
           <%= submit_tag 'Update', class: 'btn btn-primary' %>
         </div>
+      <div class="Additional Info">
+        <h3>Additional Info</h3>
+        <div class="form-group">
+          <%= f.label :personality_type %><br>
+          <%= f.text_field :personality_type, class: 'form-control', placeholder: 'What type of personality do you view you have?' %>
+        </div>
+        <div class="form-group">
+          <%= f.label :hobbies %><br>
+          <%= f.text_field :hobbies, class: 'form-control', placeholder: 'What hobbies or activities do you partake in your free time?' %>
+        </div>
+        <div class="form-group">
+          <%= f.label :favorite_memory %><br>
+          <%= f.text_field :favorite_memory, class: 'form-control', placeholder: 'What memory or moment stands out at as special to you or the most fun?' %>
+        </div>
+        <div class="form-group">
+          <%= f.label :favorite_movie_genre %><br>
+          <%= f.text_field :favorite_movie_genre, class: 'form-control', placeholder: 'What movie or movie genre do you enjoy to watch the most?' %>
+        </div>
+        <div class="form-group">
+          <%= f.label :favorite_music %><br>
+          <%= f.text_field :favorite_music, class: 'form-control', placeholder: 'What song or music artist do you enjoy to watch the most?' %>
+        </div>
+        <div class="form-group">
+          <%= f.label :strengths %><br>
+          <%= f.text_field :strengths, class: 'form-control', placeholder: 'What stength do you view as one of your most useful strengths?' %>
+        </div>
+        <div class="form-group">
+          <%= f.label :weaknesses %><br>
+          <%= f.text_field :weaknesses, class: 'form-control', placeholder: 'What weakness do you view as one of your worst downfalls?' %>
+        </div>      
+        <div class="form-group">
+          <%= f.label :three_wishes %><br>
+          <%= f.text_field :three_wishes, class: 'form-control', placeholder: 'If you were given three wishes what would they be?' %>
+        </div> 
+        <div class="form-group">
+          <%= f.label :role_model %><br>
+          <%= f.text_field :role_model, class: 'form-control', placeholder: 'Who do yo view as the most influencial person in your life or role model?' %>
+        </div> 
+        <div class="form-group">
+          <%= f.label :favorite_quote %><br>
+          <%= f.text_field :favorite_quote, class: 'form-control', placeholder: 'What is the most influencial or favorite quote to you?' %>
+        </div> 
+        </div>
+          <%= submit_tag 'Update', class: 'btn-Additional Info' %>
       <% end %>
     </div>
   </div>

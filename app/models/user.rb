@@ -3,9 +3,11 @@
 # under GNU GPL v2 or later. See the LICENSE.
 
 class User < ActiveRecord::Base
+  has_merit
+
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
-  devise :database_authenticatable, :registerable, :confirmable,
+  devise :database_authenticatable, :registerable,
     :recoverable, :rememberable, :trackable, :validatable
   acts_as_voter
   acts_as_follower

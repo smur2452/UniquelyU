@@ -1,0 +1,2 @@
+class UniquelyUController < ApplicationController
+end
