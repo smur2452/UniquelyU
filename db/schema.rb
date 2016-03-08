@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160306182951) do
+ActiveRecord::Schema.define(version: 20160306182940) do
 
   create_table "activities", force: true do |t|
     t.integer  "trackable_id"
@@ -171,23 +171,21 @@ ActiveRecord::Schema.define(version: 20160306182951) do
     t.datetime "created_at",                              null: false
     t.datetime "updated_at",                              null: false
     t.string   "sex",                    default: "male", null: false
-    t.text   "personality_type"
-    t.text   "hobbies"
-    t.text  "favorite_memory" 
-    t.text   "favorite_movie_genre"
-    t.text   "favorite_music"
-    t.text   "strengths"
-    t.text   "weaknesses"
-    t.text   "three_wishes"
-    t.text   "role_model"
-    t.text   "favorite_quote"
     t.string   "location"
     t.date     "dob"
     t.string   "phone_number"
+    t.text     "personality_type"
+    t.text     "hobbies"
+    t.text     "favorite_memory"
+    t.text     "favorite_movie_genre"
+    t.text     "favorite_music"
+    t.text     "strengths"
+    t.text     "weaknesses"
+    t.text     "three_wishes"
+    t.text     "role_model"
+    t.text     "favorite_quote"
     t.integer  "posts_count",            default: 0,      null: false
     t.string   "slug"
-    t.integer  "sash_id"
-    t.integer  "level",                  default: 0
   end
 
   add_index "users", ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
