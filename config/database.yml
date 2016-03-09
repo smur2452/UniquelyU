@@ -1,11 +1,13 @@
 development:
   adapter: postgresql
   host: localhost
-  username: user
-  database: app-dev
+  username: ubuntu
+  password: eKcGZr59zAa2BEWU
+  database: app-dev1
 
 production:
   adapter: postgresql
   host: localhost
-  username: user
-  database: app-dev
+  username: ubuntu
+  password: eKcGZr59zAa2BEWU
+  database: app-pro1
