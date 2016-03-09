@@ -10,4 +10,4 @@ production:
   host: localhost
   username: postgres
   password: eKcGZr59zAa2BEWU
-  database: app-production
+  database: app-productionc
