@@ -1,12 +1,11 @@
 development:
   adapter: postgresql
-  host: ec2-54-83-57-25.compute-1.amazonaws.com
-  username: ogpridixypumbt
-  password: 25L47ZipVL3sjajqoBJMdW0XfI
-  database: d1gth8r0tl31b1
+  host: localhost
+  username: user
+  database: app-dev
+
 production:
   adapter: postgresql
-  host: ec2-54-83-57-25.compute-1.amazonaws.com
-  username: ogpridixypumbt
-  password: 25L47ZipVL3sjajqoBJMdW0XfI
-  database: d1gth8r0tl31b1
+  host: localhost
+  username: user
+  database: app-dev
