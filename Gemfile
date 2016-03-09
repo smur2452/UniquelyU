@@ -5,6 +5,7 @@ gem 'pg'
 gem 'rails', '4.1.6'
 gem 'merit'
 gem 'puma'
+gem 'rails_admin'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -12,6 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'utopia-tags-gallery'
 
 # Use twitter bootstrap sass
 gem 'bootstrap-sass', '~> 3.2.0'
@@ -34,7 +36,6 @@ group :production do
 end
 
 gem 'devise'
-gem 'carrierwave'
 gem 'friendly_id', '~> 5.0.0'
 
 gem 'will_paginate', '~> 3.0.6'
@@ -49,7 +50,20 @@ gem 'faker'
 gem 'populator'
 gem 'auto_html'
 ruby "2.1.5"
+gem 'authlogic'
+gem 'omniauth'
+gem 'omniauth-facebook'
 
+gem 'mime-types', :require => 'mime/types'
+gem 'carrierwave', '~> 0.6.1'
+gem 'paperclip'
+
+# -- Photo resizing
+# MiniMagick
+gem "mini_magick"
+
+# ImageMagick:
+gem "rmagick", :require => 'RMagick'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
