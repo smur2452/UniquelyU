@@ -1,9 +1,9 @@
 development:
   adapter: postgresql
   host: localhost
-  username: postgresqladmin
+  username: postgresqladmin1
   password: Sama123018120624
-  database: d3tiqsbpu4n17m
+  database: UniquelyU
 
 production:
   adapter: postgresql
