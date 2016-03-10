@@ -8,16 +8,6 @@ class DeviseCreateUsers < ActiveRecord::Migration
       t.string :about
       t.string :avatar
       t.string :cover
-      t.string   :personality_type
-      t.string   :hobbies
-      t.string   :favorite_memory
-      t.string :favorite_movie_genre
-      t.string   :favorite_music
-      t.string   :strengths
-      t.string   :weaknesses
-      t.string   :three_wishes
-      t.string   :role_model
-      t.string   :favorite_quote
       ## Recoverable
       t.string   :reset_password_token
       t.datetime :reset_password_sent_at
