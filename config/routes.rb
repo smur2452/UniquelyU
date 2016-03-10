@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-  devise_for :admins
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :posts
   resources :comments, only: [:create, :destroy]
@@ -16,7 +15,7 @@ Rails.application.routes.draw do
   resources :explore, path: '/explore'
   authenticated :user do
     root to: 'home#index', as: 'home'
-    
+
   end
   unauthenticated :user do
     root 'home#front'

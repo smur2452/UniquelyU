@@ -77,18 +77,5 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_mailer.default_url_options = { host: 'http://www.uniquelyu.com' }
-
-  ActionMailer::Base.delivery_method = :smtp
-  ActionMailer::Base.perform_deliveries = true
-
-  ActionMailer::Base.smtp_settings = {
-    :address              => 'smtp.aol.com',
-    :port                 => '25',
-    :domain               => 'uniquelyu.com',
-    :user_name            => ENV['be.uniquelyu.com'],
-    :password             => ENV['eKcGZr59zAa2BEWU'],
-    :authentication       => "plain",
-    :enable_starttls_auto => true
-  }
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
