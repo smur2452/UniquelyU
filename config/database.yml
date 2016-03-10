@@ -13,6 +13,5 @@ production:
   database: uniquelyu_production
   adapter: postgresql
   host: localhost
-  password: Sama123018120624
   encoding: utf8
   pool: 15
