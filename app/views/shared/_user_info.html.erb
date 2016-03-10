@@ -19,6 +19,56 @@
       <%= @user.location %>
     </h5>
   <% end %>
+  <% if @user.personality_type? %>
+    <h5>
+      <%= @user.personality_type %>
+    </h5>
+  <% end %>
+  <% if @user.hobbies? %>
+    <h5>
+      <%= @user.hobbies %>
+    </h5>
+  <% end %>
+  <% if @user.favorite_memory? %>
+    <h5>
+      <%= @user.favorite_memory %>
+    </h5>
+  <% end %>
+  <% if @user.favorite_movie_genre? %>
+    <h5>
+      <%= @user.favorite_movie_genre %>
+    </h5>
+  <% end %>
+  <% if @user.favorite_music? %>
+    <h5>
+      <%= @user.favorite_music %>
+    </h5>
+  <% end %>
+  <% if @user.strengths? %>
+    <h5>
+      <%= @user.strengths %>
+    </h5>
+  <% end %>
+  <% if @user.weaknesses? %>
+    <h5>
+      <%= @user.weaknesses %>
+    </h5>
+  <% end %>
+  <% if @user.three_wishes? %>
+    <h5>
+      <%= @user.three_wishes %>
+    </h5>
+  <% end %>
+  <% if @user.role_model? %>
+    <h5>
+      <%= @user.role_model %>
+    </h5>
+  <% end %>
+  <% if @user.favorite_quote? %>
+    <h5>
+      <%= @user.favorite_quote %>
+    </h5>
+  <% end %>
   <br>
   <div class="text-center">
     <% unless is_current_user?(@user) %>
