@@ -1,9 +1,9 @@
 development:
   adapter: postgresql
-  host: ec2-54-225-223-40.compute-1.amazonaws.com
+  host: localhost
   username: postgresqladmin
   password: Sama123018120624
-  database: UniquelyU
+  database: d3tiqsbpu4n17m
 
 production:
   adapter: postgresql
