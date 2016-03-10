@@ -10,7 +10,9 @@ test:
   timeout: 5000
 
 production:
+  database: uniquelyu_production
   adapter: postgresql
-  database: my_database_production
-  pool: 5
-  timeout: 5000
+  host: localhost
+  password: Sama123018120624
+  encoding: utf8
+  pool: 15
