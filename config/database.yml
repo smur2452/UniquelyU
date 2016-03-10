@@ -1,10 +1,8 @@
 development:
   adapter: postgresql
-  host:      ec2-54-225-223-40.compute-1.amazonaws.com
-  username: tvatgpajcxwtlv
-  password:   rl4ehNZhPmCG80HRh6aDHzoTTb
-  database: UniquelyU
-
+  host: localhost
+  username: user
+  database: app-dev
 production:
   adapter: postgresql
   host: localhost
