@@ -53,7 +53,7 @@ ruby "2.1.5"
 gem 'authlogic'
 gem 'omniauth'
 gem 'omniauth-facebook'
-
+gem 'cancancan', '~> 1.10'
 gem 'mime-types', :require => 'mime/types'
 gem 'carrierwave', '~> 0.6.1'
 gem 'paperclip'
@@ -63,7 +63,7 @@ gem 'paperclip'
 gem "mini_magick"
 
 # ImageMagick:
-gem "rmagick", :require => 'RMagick'
+gem "rmagick"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

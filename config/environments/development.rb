@@ -41,9 +41,5 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = {:host => "uniquelyu.com"}
 config.action_mailer.delivery_method = :smtp
-config.action_mailer.smtp_settings = {
-    :address              => "127.0.0.1",
-    :port                 => "25",
-    :domain               => "uniquelyu.com",
-}
+config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
