@@ -74,21 +74,23 @@
         <div class="form-group">
           <%= f.label :weaknesses %><br>
           <%= f.text_field :weaknesses, class: 'form-control', placeholder: 'What weakness do you view as one of your worst downfalls?' %>
-        </div>      
+        </div>
         <div class="form-group">
           <%= f.label :three_wishes %><br>
           <%= f.text_field :three_wishes, class: 'form-control', placeholder: 'If you were given three wishes what would they be?' %>
-        </div> 
+        </div>
         <div class="form-group">
           <%= f.label :role_model %><br>
           <%= f.text_field :role_model, class: 'form-control', placeholder: 'Who do yo view as the most influencial person in your life or role model?' %>
-        </div> 
+        </div>
         <div class="form-group">
           <%= f.label :favorite_quote %><br>
           <%= f.text_field :favorite_quote, class: 'form-control', placeholder: 'What is the most influencial or favorite quote to you?' %>
-        </div> 
         </div>
-          <%= submit_tag 'Update', class: 'btn-Additional Info' %>
+        </div>
+        <div class="actions">
+          <%= submit_tag 'Update', class: 'btn btn-primary' %>
+        </div>
       <% end %>
     </div>
   </div>
