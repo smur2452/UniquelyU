@@ -1,13 +1,13 @@
 development:
   adapter: postgresql
   host: localhost
-  username: uniquely
+  username: postgres
   password: eKcGZr59zAa2BEWU
   database: app-develop
 
 production:
   adapter: postgresql
   host: ec2-54-225-223-40.compute-1.amazonaws.com
-  username: uniquely
+  username: postgres
   password: vkc53dhUBDKRT8EFSVJ3ESffGv
   database: app-production
