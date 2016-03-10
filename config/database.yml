@@ -4,8 +4,7 @@ development:
   username: user
   database: app-dev
 production:
-  adapter: postgresql
-  host: localhost
-  username: postgresqladmin
-  password: Sama123018120624
-  database: UniquelyU
+    adapter: postgresql
+    host: localhost
+    username: user
+    database: app-dev
