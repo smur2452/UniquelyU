@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
   border: none;
-  background-color: #2c3e50;
+  background-color: #2b90d9;
 }
 
 .navbar-brand {
@@ -22,9 +22,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default .navbar-nav > li > a, .navbar-brand {
   font-family: 'Montserrat';
-  color: white !important;
+  color: #e1eef6; !important;
   &:hover {
-    color: $bg-color !important;
+    color: #2b90d9; !important;
   };
 }
 
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .activity {
-  background: white;
+  background: #a3c9c7;
   border: 1px solid $border-color;
   border-radius: 3px;
   padding: 10px;
@@ -81,9 +81,9 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
 }
 
-input[type="text"], 
-input[type="email"], 
-input[type="password"], 
+input[type="text"],
+input[type="email"],
+input[type="password"],
 textarea {
   box-shadow: none !important;
   border: 2px solid #ccc !important;
@@ -116,16 +116,16 @@ textarea {
   font-size: $small-font-size;
   margin-top: 10px;
   margin-right: 10px;
-}  
+}
 
 .activity-post, .activity-event, .post, .event {
   .actions {
     margin-top: 10px;
     padding-top: 10px;
-    border-top: 1px solid $border-color;
+    border-top: 1px solid #282c37
     a, button {
       font-family: 'Montserrat', sans-serif;
-      background-color: $border-color;
+      background-color: #282c37
       color: #555;
       i {
         margin-right: 5px;
